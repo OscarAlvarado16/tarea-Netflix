@@ -1,0 +1,30 @@
+@media only screen and (max-width: 800px) {
+    /* Reducir el tamaño de fuente */
+    body {
+      font-size: 14px;
+    }
+  
+    /* Reorganización de elementos */
+    .menu {
+      display: flex;
+      
+    }
+    .explorar{
+      display: flex;
+    }
+    /* Tamaño de elementos y espaciado */
+  
+    .usuario {
+      width: 30px;
+      height: 30px;
+    }
+  
+    .informacion {
+      grid-template-columns: repeat(2, auto);
+      grid-template-rows: repeat(6, auto);
+      font-size: 13px;
+    }
+    .filtros{
+      display: none;
+    }
+}
