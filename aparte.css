@@ -54,9 +54,10 @@ img{
 	display: block;
 	transition: transform 0.3s ease
 }
-.series-recomendadas-contenedor .contenedor-carousel .carousel {
-	display: flex;
-	flex-wrap: nowrap;
+.series-recomendadas-contenedor .contenedor-carousel .series {
+	display: grid;
+	grid-template-columns: repeat(6,auto);
+ 
 }
 .contenedor-titulo-controles{
 	color: white;

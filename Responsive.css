@@ -1,9 +1,18 @@
 @media only screen and (max-width: 800px) {
   .series-recomendadas-contenedor .contenedor-carousel .series {
     grid-template-columns: repeat(2,auto);
+    
+    
+}
+.x-3{
+  display: none;
+}
+.x-2{
+  display: none;
 }
 }
 @media only screen and (max-width: 800px){
+
   body {
     font-size: 14px;
   }
@@ -31,12 +40,21 @@
   .filtros{
     display: none;
   }
+  
 }
+@media screen and (max-width: 1200px){
+  .x-3{
+    display: none;
+  }
+}
+  
+
 @media only screen and (min-width: 768px) {    /* Reducir el tamaño de fuente */
   
   .series-recomendadas-contenedor .contenedor-carousel .series {
   grid-template-columns: repeat(3,auto);
   }
+  
 }
 @media only screen and (min-width: 1200px) {
   .series-recomendadas-contenedor .contenedor-carousel .series {
